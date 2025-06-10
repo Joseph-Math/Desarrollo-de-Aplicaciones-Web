@@ -1,0 +1,78 @@
+/* Colores personalizados de fondo y texto */
+body {
+  background-color: #f0f8ff; /* azul claro */
+  color: #333333; /* gris oscuro */
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Estilo a encabezados */
+h1 {
+  color: #003366;
+  font-size: 2.5em;
+  border-bottom: 2px solid #003366;
+}
+
+h2 {
+  color: #005599;
+}
+
+h3 {
+  color: #0077cc;
+}
+
+/* Estilo a párrafos */
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Bordes para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #999;
+}
+
+th {
+  background-color: #e0e0e0;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+}
+
+/* Estilo para el formulario */
+form {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #0099cc;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #005fa3;
+}
